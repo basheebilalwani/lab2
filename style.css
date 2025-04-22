@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    padding:20px;
+    background-color: rgb(252, 237, 252);
+}
+.form-box{
+    border: 2px solid black;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+}
+.form-group{
+    margin-bottom:15px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-weight:bold;
+}
+#username,#password,#name,#parentage,#phone{
+    width:100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+fieldset{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+legend{
+    font-weight: bold;
+}
+.form-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit, button{
+    padding: 10px 15px;
+    border:1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover,#submit:hover{
+    background-color:pink;
+}
